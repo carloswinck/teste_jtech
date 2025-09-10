@@ -1,0 +1,657 @@
+2025-09-10T08:56:38.602-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TaskControllerTest         : Starting TaskControllerTest v1.0.0-SNAPSHOT using Java 21.0.8 with PID 736 (started by carlo in C:\Trabalho\teste\fullstack2\jtech-tasklist-backend)
+2025-09-10T08:56:38.620-03:00 DEBUG 736 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TaskControllerTest         : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10T08:56:38.620-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TaskControllerTest         : The following 1 profile is active: "dev"
+2025-09-10T08:56:41.890-03:00  WARN 736 --- [tasklist] [Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: e97be410-596e-441e-8219-7409f74b1cac
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-10T08:56:41.900-03:00  INFO 736 --- [tasklist] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-10T08:56:42.275-03:00  INFO 736 --- [tasklist] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-10T08:56:42.275-03:00  INFO 736 --- [tasklist] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-10T08:56:42.275-03:00  INFO 736 --- [tasklist] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-09-10T08:56:42.311-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TaskControllerTest         : Started TaskControllerTest in 4.384 seconds (process running for 6.323)
+2025-09-10T08:56:42.402-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [977d36c5-4687-4c22-9d66-7f44c0f4f709]: POST /api/v1/tasks from 127.0.0.1
+2025-09-10T08:56:42.542-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [977d36c5-4687-4c22-9d66-7f44c0f4f709]: POST /api/v1/tasks - Status: 201 - Duration: 140ms
+2025-09-10T08:56:42.628-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [bfeb988d-3260-4069-9b9a-1102cb140ac4]: GET /api/v1/tasks from 127.0.0.1
+2025-09-10T08:56:42.640-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [bfeb988d-3260-4069-9b9a-1102cb140ac4]: GET /api/v1/tasks - Status: 200 - Duration: 12ms
+2025-09-10T08:56:42.649-03:00  INFO 736 --- [tasklist] [Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [br.com.jtech.tasklist.adapters.input.controllers.TasklistControllerTest]: TasklistControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-09-10T08:56:42.656-03:00  INFO 736 --- [tasklist] [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration br.com.jtech.tasklist.TasklistApplication for test class br.com.jtech.tasklist.adapters.input.controllers.TasklistControllerTest
+2025-09-10T08:56:42.700-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TasklistControllerTest     : Starting TasklistControllerTest v1.0.0-SNAPSHOT using Java 21.0.8 with PID 736 (started by carlo in C:\Trabalho\teste\fullstack2\jtech-tasklist-backend)
+2025-09-10T08:56:42.702-03:00 DEBUG 736 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TasklistControllerTest     : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10T08:56:42.702-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TasklistControllerTest     : The following 1 profile is active: "dev"
+2025-09-10T08:56:43.306-03:00  WARN 736 --- [tasklist] [Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 3776c03c-de19-4945-9c93-90d7e8e75d65
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-10T08:56:43.306-03:00  INFO 736 --- [tasklist] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-10T08:56:43.348-03:00  INFO 736 --- [tasklist] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-10T08:56:43.350-03:00  INFO 736 --- [tasklist] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-10T08:56:43.350-03:00  INFO 736 --- [tasklist] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-09-10T08:56:43.354-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TasklistControllerTest     : Started TasklistControllerTest in 0.689 seconds (process running for 7.37)
+2025-09-10T08:56:43.366-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [bcb57715-2e72-479f-819c-792b6520892f]: POST /api/v1/tasklists from 127.0.0.1
+2025-09-10T08:56:43.376-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [bcb57715-2e72-479f-819c-792b6520892f]: POST /api/v1/tasklists - Status: 201 - Duration: 10ms
+2025-09-10T08:56:43.376-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [d45d620b-99f3-428d-adc5-c79022c5e8a4]: GET /api/v1/tasklists from 127.0.0.1
+2025-09-10T08:56:43.394-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [d45d620b-99f3-428d-adc5-c79022c5e8a4]: GET /api/v1/tasklists - Status: 200 - Duration: 18ms
+2025-09-10T08:56:43.398-03:00  INFO 736 --- [tasklist] [Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [br.com.jtech.tasklist.integration.TasklistIntegrationTest]: TasklistIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-09-10T08:56:43.398-03:00  INFO 736 --- [tasklist] [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration br.com.jtech.tasklist.TasklistApplication for test class br.com.jtech.tasklist.integration.TasklistIntegrationTest
+2025-09-10T08:56:43.471-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : Starting TasklistIntegrationTest v1.0.0-SNAPSHOT using Java 21.0.8 with PID 736 (started by carlo in C:\Trabalho\teste\fullstack2\jtech-tasklist-backend)
+2025-09-10T08:56:43.471-03:00 DEBUG 736 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10T08:56:43.471-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : The following 1 profile is active: "test"
+2025-09-10T08:56:44.254-03:00  INFO 736 --- [tasklist] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10T08:56:44.305-03:00  INFO 736 --- [tasklist] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 47 ms. Found 2 JPA repository interfaces.
+2025-09-10T08:56:44.507-03:00  WARN 736 --- [tasklist] [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'validationConfig' of type [br.com.jtech.tasklist.config.ValidationConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [methodValidationPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-09-10T08:56:44.511-03:00  WARN 736 --- [tasklist] [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-09-10T08:56:45.105-03:00  INFO 736 --- [tasklist] [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-09-10T08:56:45.133-03:00  INFO 736 --- [tasklist] [Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-10T08:56:45.133-03:00  INFO 736 --- [tasklist] [Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10T08:56:45.204-03:00  INFO 736 --- [tasklist] [Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-10T08:56:45.204-03:00  INFO 736 --- [tasklist] [Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1731 ms
+2025-09-10T08:56:45.433-03:00 DEBUG 736 --- [tasklist] [Test worker] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-09-10T08:56:45.433-03:00 DEBUG 736 --- [tasklist] [Test worker] o.s.web.filter.ForwardedHeaderFilter     : Filter 'forwardedHeaderFilter' configured for use
+2025-09-10T08:56:45.617-03:00  INFO 736 --- [tasklist] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10T08:56:45.696-03:00  INFO 736 --- [tasklist] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-10T08:56:45.744-03:00  INFO 736 --- [tasklist] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-10T08:56:45.924-03:00  INFO 736 --- [tasklist] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10T08:56:45.962-03:00  INFO 736 --- [tasklist] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-10T08:56:46.275-03:00  INFO 736 --- [tasklist] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-09-10T08:56:46.275-03:00  INFO 736 --- [tasklist] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-10T08:56:46.327-03:00  WARN 736 --- [tasklist] [Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-10T08:56:46.351-03:00  INFO 736 --- [tasklist] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10T08:56:47.352-03:00  INFO 736 --- [tasklist] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10T08:56:47.378-03:00 DEBUG 736 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    drop table if exists tasklists cascade 
+2025-09-10T08:56:47.384-03:00 DEBUG 736 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    drop table if exists tasks cascade 
+2025-09-10T08:56:47.391-03:00 DEBUG 736 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    create table tasklists (
+        created_at timestamp(6) not null,
+        updated_at timestamp(6) not null,
+        id uuid not null,
+        color varchar(20),
+        description varchar(1000),
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-10T08:56:47.400-03:00 DEBUG 736 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    create table tasks (
+        completed boolean not null,
+        created_at timestamp(6) not null,
+        due_date timestamp(6),
+        updated_at timestamp(6) not null,
+        id uuid not null,
+        tasklist_id uuid not null,
+        priority varchar(20),
+        description varchar(1000),
+        title varchar(255) not null,
+        primary key (id)
+    )
+2025-09-10T08:56:47.400-03:00  INFO 736 --- [tasklist] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10T08:56:47.805-03:00  INFO 736 --- [tasklist] [Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-10T08:56:48.640-03:00  WARN 736 --- [tasklist] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10T08:56:48.715-03:00 DEBUG 736 --- [tasklist] [Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2025-09-10T08:56:49.312-03:00 DEBUG 736 --- [tasklist] [Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /doc/tasklist/v1/swagger-ui*/*swagger-initializer.js, /doc/tasklist/v1/swagger-ui*/**] in 'resourceHandlerMapping'
+2025-09-10T08:56:49.576-03:00  INFO 736 --- [tasklist] [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-09-10T08:56:49.614-03:00  WARN 736 --- [tasklist] [Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cb367611-9aeb-46c6-85ac-7164e02e82fe
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-10T08:56:49.617-03:00  INFO 736 --- [tasklist] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-10T08:56:49.743-03:00 DEBUG 736 --- [tasklist] [Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-10T08:56:49.763-03:00 DEBUG 736 --- [tasklist] [Test worker] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-10T08:56:50.066-03:00  INFO 736 --- [tasklist] [Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-09-10T08:56:50.370-03:00  INFO 736 --- [tasklist] [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 49739 (http) with context path '/'
+2025-09-10T08:56:50.392-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : Started TasklistIntegrationTest in 6.978 seconds (process running for 14.404)
+2025-09-10T08:56:50.462-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : >>> Connector Ready
+2025-09-10T08:56:50.462-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : ======================================================
+2025-09-10T08:56:50.462-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : == Execute mode:.....................'LOCAL'
+2025-09-10T08:56:50.462-03:00  INFO 736 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : ======================================================
+2025-09-10T08:56:50.501-03:00 DEBUG 736 --- [tasklist] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@41f7c02d, started on Wed Sep 10 08:56:38 BRT 2025
+2025-09-10T08:56:50.506-03:00 DEBUG 736 --- [tasklist] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@2b16efeb, started on Wed Sep 10 08:56:42 BRT 2025
+2025-09-10T08:56:50.508-03:00  INFO 736 --- [tasklist] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10T08:56:50.518-03:00  INFO 736 --- [tasklist] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-10T08:56:50.710-03:00  INFO 736 --- [tasklist] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10T08:56:50.710-03:00  INFO 736 --- [tasklist] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-10T08:56:50.710-03:00  INFO 736 --- [tasklist] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-10T09:16:32.555-03:00  INFO 8776 --- [tasklist] [main] b.c.jtech.tasklist.TasklistApplication   : Starting TasklistApplication v1.0.0-SNAPSHOT using Java 21.0.8 with PID 8776 (C:\Trabalho\teste\fullstack2\jtech-tasklist-backend\build\classes\java\main started by carlo in C:\Trabalho\teste\fullstack2\jtech-tasklist-backend)
+2025-09-10T09:16:32.559-03:00 DEBUG 8776 --- [tasklist] [main] b.c.jtech.tasklist.TasklistApplication   : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10T09:16:32.561-03:00  INFO 8776 --- [tasklist] [main] b.c.jtech.tasklist.TasklistApplication   : The following 1 profile is active: "dev"
+2025-09-10T09:16:33.764-03:00  INFO 8776 --- [tasklist] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10T09:16:33.832-03:00  INFO 8776 --- [tasklist] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 60 ms. Found 2 JPA repository interfaces.
+2025-09-10T09:16:34.169-03:00  WARN 8776 --- [tasklist] [main] trationDelegate$BeanPostProcessorChecker : Bean 'validationConfig' of type [br.com.jtech.tasklist.config.ValidationConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [methodValidationPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-09-10T09:16:34.179-03:00  WARN 8776 --- [tasklist] [main] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-09-10T09:16:34.691-03:00  INFO 8776 --- [tasklist] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 8080 (http)
+2025-09-10T09:16:34.705-03:00  INFO 8776 --- [tasklist] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-10T09:16:34.705-03:00  INFO 8776 --- [tasklist] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10T09:16:34.762-03:00  INFO 8776 --- [tasklist] [main] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-10T09:16:34.763-03:00  INFO 8776 --- [tasklist] [main] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2149 ms
+2025-09-10T09:16:35.111-03:00  INFO 8776 --- [tasklist] [main] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10T09:16:35.167-03:00  INFO 8776 --- [tasklist] [main] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-10T09:16:35.200-03:00  INFO 8776 --- [tasklist] [main] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-10T09:16:35.475-03:00  INFO 8776 --- [tasklist] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10T09:16:35.504-03:00  INFO 8776 --- [tasklist] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-10T09:16:35.737-03:00  INFO 8776 --- [tasklist] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@57806346
+2025-09-10T09:16:35.740-03:00  INFO 8776 --- [tasklist] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-10T09:16:35.798-03:00  WARN 8776 --- [tasklist] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-10T09:16:35.817-03:00  INFO 8776 --- [tasklist] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 17.4
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10T09:16:36.672-03:00  INFO 8776 --- [tasklist] [main] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10T09:16:36.754-03:00  INFO 8776 --- [tasklist] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10T09:16:37.086-03:00  INFO 8776 --- [tasklist] [main] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-10T09:16:37.704-03:00  WARN 8776 --- [tasklist] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10T09:16:38.432-03:00  INFO 8776 --- [tasklist] [main] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 15 endpoints beneath base path '/actuator'
+2025-09-10T09:16:38.480-03:00  WARN 8776 --- [tasklist] [main] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cc04ef50-5dcf-4b8b-ad8e-be845a74f28a
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-10T09:16:38.488-03:00  INFO 8776 --- [tasklist] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-10T09:16:39.170-03:00  INFO 8776 --- [tasklist] [main] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 8080 (http) with context path '/'
+2025-09-10T09:16:39.181-03:00  INFO 8776 --- [tasklist] [main] b.c.jtech.tasklist.TasklistApplication   : Started TasklistApplication in 7.39 seconds (process running for 8.838)
+2025-09-10T09:16:39.187-03:00  INFO 8776 --- [tasklist] [main] b.c.j.t.c.i.l.ReadyEventListener         : >>> Connector Ready
+2025-09-10T09:16:39.187-03:00  INFO 8776 --- [tasklist] [main] b.c.j.t.c.i.l.ReadyEventListener         : ======================================================
+2025-09-10T09:16:39.187-03:00  INFO 8776 --- [tasklist] [main] b.c.j.t.c.i.l.ReadyEventListener         : == Execute mode:.....................'LOCAL'
+2025-09-10T09:16:39.187-03:00  INFO 8776 --- [tasklist] [main] b.c.j.t.c.i.l.ReadyEventListener         : ======================================================
+2025-09-10T09:16:39.761-03:00  INFO 8776 --- [tasklist] [RMI TCP Connection(2)-192.168.0.55] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-09-10T09:16:39.761-03:00  INFO 8776 --- [tasklist] [RMI TCP Connection(2)-192.168.0.55] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-09-10T09:16:39.763-03:00  INFO 8776 --- [tasklist] [RMI TCP Connection(2)-192.168.0.55] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2025-09-10T09:19:51.708-03:00  INFO 8776 --- [tasklist] [http-nio-8080-exec-2] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [d23d6cd7-8580-45cf-a044-dbedaf5329e3]: GET /api/v1/tasks from 0:0:0:0:0:0:0:1
+2025-09-10T09:19:51.708-03:00  INFO 8776 --- [tasklist] [http-nio-8080-exec-3] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [b4e0786c-842d-487a-83bf-09385e1b5f2e]: GET /api/v1/tasklists from 0:0:0:0:0:0:0:1
+2025-09-10T09:19:53.300-03:00  INFO 8776 --- [tasklist] [http-nio-8080-exec-3] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [b4e0786c-842d-487a-83bf-09385e1b5f2e]: GET /api/v1/tasklists - Status: 200 - Duration: 1609ms
+2025-09-10T09:19:53.300-03:00  INFO 8776 --- [tasklist] [http-nio-8080-exec-2] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [d23d6cd7-8580-45cf-a044-dbedaf5329e3]: GET /api/v1/tasks - Status: 200 - Duration: 1609ms
+2025-09-10T09:19:57.145-03:00  INFO 8776 --- [tasklist] [http-nio-8080-exec-5] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [2c51fa04-1bac-4637-b79e-be4dfc9be5fa]: GET /api/v1/tasks/tasklist/aca36701-e92b-4445-b6f1-c8659c5958df from 0:0:0:0:0:0:0:1
+2025-09-10T09:19:57.325-03:00  INFO 8776 --- [tasklist] [http-nio-8080-exec-5] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [2c51fa04-1bac-4637-b79e-be4dfc9be5fa]: GET /api/v1/tasks/tasklist/aca36701-e92b-4445-b6f1-c8659c5958df - Status: 200 - Duration: 180ms
+2025-09-10T09:20:04.610-03:00  INFO 8776 --- [tasklist] [http-nio-8080-exec-6] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [33e0f725-e8bd-485b-9b36-34297df323f1]: OPTIONS /api/v1/tasks/a352d66d-3350-4357-8acd-4221202de228/toggle from 0:0:0:0:0:0:0:1
+2025-09-10T09:20:04.611-03:00  INFO 8776 --- [tasklist] [http-nio-8080-exec-6] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [33e0f725-e8bd-485b-9b36-34297df323f1]: OPTIONS /api/v1/tasks/a352d66d-3350-4357-8acd-4221202de228/toggle - Status: 200 - Duration: 2ms
+2025-09-10T09:20:04.625-03:00  INFO 8776 --- [tasklist] [http-nio-8080-exec-7] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [3f805838-8a17-4b16-8573-fed424593020]: PATCH /api/v1/tasks/a352d66d-3350-4357-8acd-4221202de228/toggle from 0:0:0:0:0:0:0:1
+2025-09-10T09:20:04.874-03:00  INFO 8776 --- [tasklist] [http-nio-8080-exec-7] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [3f805838-8a17-4b16-8573-fed424593020]: PATCH /api/v1/tasks/a352d66d-3350-4357-8acd-4221202de228/toggle - Status: 200 - Duration: 249ms
+2025-09-10T09:29:56.085-03:00  INFO 8776 --- [tasklist] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10T09:29:56.249-03:00  INFO 8776 --- [tasklist] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-10T09:29:56.593-03:00  INFO 8776 --- [tasklist] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10T09:29:56.736-03:00  INFO 8776 --- [tasklist] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-10T09:29:56.841-03:00  INFO 8776 --- [tasklist] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-10T09:46:23.766-03:00  INFO 18324 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : Starting TasklistIntegrationTest v1.0.0-SNAPSHOT using Java 21.0.8 with PID 18324 (started by carlo in C:\Trabalho\teste\fullstack2\jtech-tasklist-backend)
+2025-09-10T09:46:23.766-03:00 DEBUG 18324 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10T09:46:23.771-03:00  INFO 18324 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : The following 1 profile is active: "test"
+2025-09-10T09:46:26.630-03:00  INFO 18324 --- [tasklist] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10T09:46:26.740-03:00  INFO 18324 --- [tasklist] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 97 ms. Found 2 JPA repository interfaces.
+2025-09-10T09:46:27.530-03:00  WARN 18324 --- [tasklist] [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'validationConfig' of type [br.com.jtech.tasklist.config.ValidationConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [methodValidationPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-09-10T09:46:27.548-03:00  WARN 18324 --- [tasklist] [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-09-10T09:46:28.545-03:00  INFO 18324 --- [tasklist] [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-09-10T09:46:28.563-03:00  INFO 18324 --- [tasklist] [Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-10T09:46:28.563-03:00  INFO 18324 --- [tasklist] [Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10T09:46:28.697-03:00  INFO 18324 --- [tasklist] [Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-10T09:46:28.698-03:00  INFO 18324 --- [tasklist] [Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 4898 ms
+2025-09-10T09:46:29.081-03:00 DEBUG 18324 --- [tasklist] [Test worker] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-09-10T09:46:29.081-03:00 DEBUG 18324 --- [tasklist] [Test worker] o.s.web.filter.ForwardedHeaderFilter     : Filter 'forwardedHeaderFilter' configured for use
+2025-09-10T09:46:29.517-03:00  INFO 18324 --- [tasklist] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10T09:46:29.674-03:00  INFO 18324 --- [tasklist] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-10T09:46:29.745-03:00  INFO 18324 --- [tasklist] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-10T09:46:30.373-03:00  INFO 18324 --- [tasklist] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10T09:46:30.475-03:00  INFO 18324 --- [tasklist] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-10T09:46:31.090-03:00  INFO 18324 --- [tasklist] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-09-10T09:46:31.099-03:00  INFO 18324 --- [tasklist] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-10T09:46:31.166-03:00  WARN 18324 --- [tasklist] [Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-10T09:46:31.218-03:00  INFO 18324 --- [tasklist] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10T09:46:34.085-03:00  INFO 18324 --- [tasklist] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10T09:46:34.123-03:00 DEBUG 18324 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    drop table if exists tasklists cascade 
+2025-09-10T09:46:34.133-03:00 DEBUG 18324 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    drop table if exists tasks cascade 
+2025-09-10T09:46:34.142-03:00 DEBUG 18324 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    create table tasklists (
+        created_at timestamp(6) not null,
+        updated_at timestamp(6) not null,
+        id uuid not null,
+        color varchar(20),
+        description varchar(1000),
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-10T09:46:34.154-03:00 DEBUG 18324 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    create table tasks (
+        completed boolean not null,
+        created_at timestamp(6) not null,
+        due_date timestamp(6),
+        updated_at timestamp(6) not null,
+        id uuid not null,
+        tasklist_id uuid not null,
+        priority varchar(20),
+        description varchar(1000),
+        title varchar(255) not null,
+        primary key (id)
+    )
+2025-09-10T09:46:34.161-03:00  INFO 18324 --- [tasklist] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10T09:46:34.772-03:00  INFO 18324 --- [tasklist] [Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-10T09:46:37.666-03:00  WARN 18324 --- [tasklist] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10T09:46:37.866-03:00 DEBUG 18324 --- [tasklist] [Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2025-09-10T09:46:39.265-03:00 DEBUG 18324 --- [tasklist] [Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /doc/tasklist/v1/swagger-ui*/*swagger-initializer.js, /doc/tasklist/v1/swagger-ui*/**] in 'resourceHandlerMapping'
+2025-09-10T09:46:39.667-03:00  INFO 18324 --- [tasklist] [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-09-10T09:46:39.761-03:00  WARN 18324 --- [tasklist] [Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 882880a5-102e-45d0-a3dc-9b0658c081a2
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-10T09:46:39.797-03:00  INFO 18324 --- [tasklist] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-10T09:46:40.334-03:00 DEBUG 18324 --- [tasklist] [Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-10T09:46:40.492-03:00 DEBUG 18324 --- [tasklist] [Test worker] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-10T09:46:40.965-03:00  INFO 18324 --- [tasklist] [Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-09-10T09:46:41.411-03:00  INFO 18324 --- [tasklist] [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 62717 (http) with context path '/'
+2025-09-10T09:46:41.427-03:00  INFO 18324 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : Started TasklistIntegrationTest in 18.451 seconds (process running for 21.779)
+2025-09-10T09:46:41.526-03:00  INFO 18324 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : >>> Connector Ready
+2025-09-10T09:46:41.526-03:00  INFO 18324 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : ======================================================
+2025-09-10T09:46:41.526-03:00  INFO 18324 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : == Execute mode:.....................'LOCAL'
+2025-09-10T09:46:41.526-03:00  INFO 18324 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : ======================================================
+2025-09-10T09:46:42.059-03:00  INFO 18324 --- [tasklist] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10T09:46:42.071-03:00  INFO 18324 --- [tasklist] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-10T09:46:42.281-03:00  INFO 18324 --- [tasklist] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10T09:46:42.282-03:00  INFO 18324 --- [tasklist] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-10T09:46:42.282-03:00  INFO 18324 --- [tasklist] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-10T09:46:54.168-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TaskControllerTest         : Starting TaskControllerTest v1.0.0-SNAPSHOT using Java 21.0.8 with PID 15164 (started by carlo in C:\Trabalho\teste\fullstack2\jtech-tasklist-backend)
+2025-09-10T09:46:54.171-03:00 DEBUG 15164 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TaskControllerTest         : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10T09:46:54.171-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TaskControllerTest         : The following 1 profile is active: "dev"
+2025-09-10T09:46:59.861-03:00  WARN 15164 --- [tasklist] [Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cc65ffe6-9c7a-44b1-b188-d9dfd6b38207
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-10T09:46:59.895-03:00  INFO 15164 --- [tasklist] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-10T09:47:00.767-03:00  INFO 15164 --- [tasklist] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-10T09:47:00.767-03:00  INFO 15164 --- [tasklist] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-10T09:47:00.770-03:00  INFO 15164 --- [tasklist] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-09-10T09:47:00.939-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TaskControllerTest         : Started TaskControllerTest in 7.829 seconds (process running for 10.571)
+2025-09-10T09:47:01.145-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [0ad7b2d8-ea72-4110-adeb-18708e3f04ab]: POST /api/v1/tasks from 127.0.0.1
+2025-09-10T09:47:01.408-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [0ad7b2d8-ea72-4110-adeb-18708e3f04ab]: POST /api/v1/tasks - Status: 201 - Duration: 264ms
+2025-09-10T09:47:01.544-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [7a706dbf-8fc0-4d02-a9b8-323bd8a0d561]: GET /api/v1/tasks from 127.0.0.1
+2025-09-10T09:47:01.561-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [7a706dbf-8fc0-4d02-a9b8-323bd8a0d561]: GET /api/v1/tasks - Status: 200 - Duration: 17ms
+2025-09-10T09:47:01.590-03:00  INFO 15164 --- [tasklist] [Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [br.com.jtech.tasklist.adapters.input.controllers.TasklistControllerTest]: TasklistControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-09-10T09:47:01.610-03:00  INFO 15164 --- [tasklist] [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration br.com.jtech.tasklist.TasklistApplication for test class br.com.jtech.tasklist.adapters.input.controllers.TasklistControllerTest
+2025-09-10T09:47:01.677-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TasklistControllerTest     : Starting TasklistControllerTest v1.0.0-SNAPSHOT using Java 21.0.8 with PID 15164 (started by carlo in C:\Trabalho\teste\fullstack2\jtech-tasklist-backend)
+2025-09-10T09:47:01.677-03:00 DEBUG 15164 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TasklistControllerTest     : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10T09:47:01.677-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TasklistControllerTest     : The following 1 profile is active: "dev"
+2025-09-10T09:47:02.677-03:00  WARN 15164 --- [tasklist] [Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cfa01792-22f0-4cfc-b5e6-e8a899f2d05e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-10T09:47:02.677-03:00  INFO 15164 --- [tasklist] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-10T09:47:02.729-03:00  INFO 15164 --- [tasklist] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-10T09:47:02.729-03:00  INFO 15164 --- [tasklist] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-10T09:47:02.729-03:00  INFO 15164 --- [tasklist] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-09-10T09:47:02.747-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TasklistControllerTest     : Started TasklistControllerTest in 1.132 seconds (process running for 12.379)
+2025-09-10T09:47:02.760-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [ff528a78-5e94-4077-b141-668d6d850d87]: POST /api/v1/tasklists from 127.0.0.1
+2025-09-10T09:47:02.769-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [ff528a78-5e94-4077-b141-668d6d850d87]: POST /api/v1/tasklists - Status: 201 - Duration: 9ms
+2025-09-10T09:47:02.776-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [ba1ff849-7927-4f1c-a9b8-b2a923e45e00]: GET /api/v1/tasklists from 127.0.0.1
+2025-09-10T09:47:02.794-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [ba1ff849-7927-4f1c-a9b8-b2a923e45e00]: GET /api/v1/tasklists - Status: 200 - Duration: 18ms
+2025-09-10T09:47:02.808-03:00  INFO 15164 --- [tasklist] [Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [br.com.jtech.tasklist.integration.TasklistIntegrationTest]: TasklistIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-09-10T09:47:02.820-03:00  INFO 15164 --- [tasklist] [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration br.com.jtech.tasklist.TasklistApplication for test class br.com.jtech.tasklist.integration.TasklistIntegrationTest
+2025-09-10T09:47:02.897-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : Starting TasklistIntegrationTest v1.0.0-SNAPSHOT using Java 21.0.8 with PID 15164 (started by carlo in C:\Trabalho\teste\fullstack2\jtech-tasklist-backend)
+2025-09-10T09:47:02.907-03:00 DEBUG 15164 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10T09:47:02.910-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : The following 1 profile is active: "test"
+2025-09-10T09:47:04.053-03:00  INFO 15164 --- [tasklist] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10T09:47:04.125-03:00  INFO 15164 --- [tasklist] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 62 ms. Found 2 JPA repository interfaces.
+2025-09-10T09:47:04.400-03:00  WARN 15164 --- [tasklist] [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'validationConfig' of type [br.com.jtech.tasklist.config.ValidationConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [methodValidationPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-09-10T09:47:04.403-03:00  WARN 15164 --- [tasklist] [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-09-10T09:47:05.311-03:00  INFO 15164 --- [tasklist] [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-09-10T09:47:05.325-03:00  INFO 15164 --- [tasklist] [Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-10T09:47:05.337-03:00  INFO 15164 --- [tasklist] [Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10T09:47:05.448-03:00  INFO 15164 --- [tasklist] [Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-10T09:47:05.448-03:00  INFO 15164 --- [tasklist] [Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 2538 ms
+2025-09-10T09:47:05.811-03:00 DEBUG 15164 --- [tasklist] [Test worker] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-09-10T09:47:05.811-03:00 DEBUG 15164 --- [tasklist] [Test worker] o.s.web.filter.ForwardedHeaderFilter     : Filter 'forwardedHeaderFilter' configured for use
+2025-09-10T09:47:06.115-03:00  INFO 15164 --- [tasklist] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10T09:47:06.243-03:00  INFO 15164 --- [tasklist] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-10T09:47:06.319-03:00  INFO 15164 --- [tasklist] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-10T09:47:06.554-03:00  INFO 15164 --- [tasklist] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10T09:47:06.612-03:00  INFO 15164 --- [tasklist] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-10T09:47:07.060-03:00  INFO 15164 --- [tasklist] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-09-10T09:47:07.076-03:00  INFO 15164 --- [tasklist] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-10T09:47:07.129-03:00  WARN 15164 --- [tasklist] [Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-10T09:47:07.158-03:00  INFO 15164 --- [tasklist] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10T09:47:08.525-03:00  INFO 15164 --- [tasklist] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10T09:47:08.560-03:00 DEBUG 15164 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    drop table if exists tasklists cascade 
+2025-09-10T09:47:08.567-03:00 DEBUG 15164 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    drop table if exists tasks cascade 
+2025-09-10T09:47:08.579-03:00 DEBUG 15164 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    create table tasklists (
+        created_at timestamp(6) not null,
+        updated_at timestamp(6) not null,
+        id uuid not null,
+        color varchar(20),
+        description varchar(1000),
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-10T09:47:08.587-03:00 DEBUG 15164 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    create table tasks (
+        completed boolean not null,
+        created_at timestamp(6) not null,
+        due_date timestamp(6),
+        updated_at timestamp(6) not null,
+        id uuid not null,
+        tasklist_id uuid not null,
+        priority varchar(20),
+        description varchar(1000),
+        title varchar(255) not null,
+        primary key (id)
+    )
+2025-09-10T09:47:08.599-03:00  INFO 15164 --- [tasklist] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10T09:47:09.075-03:00  INFO 15164 --- [tasklist] [Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-10T09:47:10.162-03:00  WARN 15164 --- [tasklist] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10T09:47:10.230-03:00 DEBUG 15164 --- [tasklist] [Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2025-09-10T09:47:11.087-03:00 DEBUG 15164 --- [tasklist] [Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /doc/tasklist/v1/swagger-ui*/*swagger-initializer.js, /doc/tasklist/v1/swagger-ui*/**] in 'resourceHandlerMapping'
+2025-09-10T09:47:11.442-03:00  INFO 15164 --- [tasklist] [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-09-10T09:47:11.496-03:00  WARN 15164 --- [tasklist] [Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: de68d4ee-0862-4be6-8770-fc27f957b00e
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-10T09:47:11.508-03:00  INFO 15164 --- [tasklist] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-10T09:47:11.698-03:00 DEBUG 15164 --- [tasklist] [Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-10T09:47:11.732-03:00 DEBUG 15164 --- [tasklist] [Test worker] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-10T09:47:12.303-03:00  INFO 15164 --- [tasklist] [Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-09-10T09:47:12.728-03:00  INFO 15164 --- [tasklist] [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 58003 (http) with context path '/'
+2025-09-10T09:47:12.735-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : Started TasklistIntegrationTest in 9.909 seconds (process running for 22.368)
+2025-09-10T09:47:12.828-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : >>> Connector Ready
+2025-09-10T09:47:12.828-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : ======================================================
+2025-09-10T09:47:12.828-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : == Execute mode:.....................'LOCAL'
+2025-09-10T09:47:12.828-03:00  INFO 15164 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : ======================================================
+2025-09-10T09:47:12.875-03:00 DEBUG 15164 --- [tasklist] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@ab2009f, started on Wed Sep 10 09:46:54 BRT 2025
+2025-09-10T09:47:12.875-03:00 DEBUG 15164 --- [tasklist] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@65b4a0d2, started on Wed Sep 10 09:47:01 BRT 2025
+2025-09-10T09:47:12.882-03:00  INFO 15164 --- [tasklist] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10T09:47:12.895-03:00  INFO 15164 --- [tasklist] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-10T09:47:13.134-03:00  INFO 15164 --- [tasklist] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10T09:47:13.136-03:00  INFO 15164 --- [tasklist] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-10T09:47:13.142-03:00  INFO 15164 --- [tasklist] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-10T10:09:01.646-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TaskControllerTest         : Starting TaskControllerTest v1.0.0-SNAPSHOT using Java 21.0.8 with PID 8544 (started by carlo in C:\Trabalho\teste\fullstack2\jtech-tasklist-backend)
+2025-09-10T10:09:01.650-03:00 DEBUG 8544 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TaskControllerTest         : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10T10:09:01.659-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TaskControllerTest         : The following 1 profile is active: "dev"
+2025-09-10T10:09:06.669-03:00  WARN 8544 --- [tasklist] [Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 868997f6-6a4a-4953-833c-982c59eac27c
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-10T10:09:06.686-03:00  INFO 8544 --- [tasklist] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-10T10:09:07.169-03:00  INFO 8544 --- [tasklist] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-10T10:09:07.169-03:00  INFO 8544 --- [tasklist] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-10T10:09:07.169-03:00  INFO 8544 --- [tasklist] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-09-10T10:09:07.219-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TaskControllerTest         : Started TaskControllerTest in 7.313 seconds (process running for 10.709)
+2025-09-10T10:09:07.360-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [9b12178d-aed9-4958-9260-f10f6bf30349]: POST /api/v1/tasks from 127.0.0.1
+2025-09-10T10:09:07.542-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [9b12178d-aed9-4958-9260-f10f6bf30349]: POST /api/v1/tasks - Status: 201 - Duration: 182ms
+2025-09-10T10:09:07.630-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [60461aa4-f48b-47f5-958a-26a8d36e1c31]: GET /api/v1/tasks from 127.0.0.1
+2025-09-10T10:09:07.639-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [60461aa4-f48b-47f5-958a-26a8d36e1c31]: GET /api/v1/tasks - Status: 200 - Duration: 9ms
+2025-09-10T10:09:07.656-03:00  INFO 8544 --- [tasklist] [Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [br.com.jtech.tasklist.adapters.input.controllers.TasklistControllerTest]: TasklistControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-09-10T10:09:07.665-03:00  INFO 8544 --- [tasklist] [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration br.com.jtech.tasklist.TasklistApplication for test class br.com.jtech.tasklist.adapters.input.controllers.TasklistControllerTest
+2025-09-10T10:09:07.821-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TasklistControllerTest     : Starting TasklistControllerTest v1.0.0-SNAPSHOT using Java 21.0.8 with PID 8544 (started by carlo in C:\Trabalho\teste\fullstack2\jtech-tasklist-backend)
+2025-09-10T10:09:07.821-03:00 DEBUG 8544 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TasklistControllerTest     : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10T10:09:07.822-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TasklistControllerTest     : The following 1 profile is active: "dev"
+2025-09-10T10:09:08.505-03:00  WARN 8544 --- [tasklist] [Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: cf9fcdf3-7d31-4fbb-a83f-1cf1547179e3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-10T10:09:08.505-03:00  INFO 8544 --- [tasklist] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-10T10:09:08.559-03:00  INFO 8544 --- [tasklist] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-10T10:09:08.560-03:00  INFO 8544 --- [tasklist] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-10T10:09:08.561-03:00  INFO 8544 --- [tasklist] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 1 ms
+2025-09-10T10:09:08.569-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TasklistControllerTest     : Started TasklistControllerTest in 0.899 seconds (process running for 12.048)
+2025-09-10T10:09:08.579-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [f14296fa-d353-4efe-8f9b-870c7dbe492b]: POST /api/v1/tasklists from 127.0.0.1
+2025-09-10T10:09:08.592-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [f14296fa-d353-4efe-8f9b-870c7dbe492b]: POST /api/v1/tasklists - Status: 201 - Duration: 13ms
+2025-09-10T10:09:08.612-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [b5dea89f-a9fa-4533-bd23-e3bd19557733]: GET /api/v1/tasklists from 127.0.0.1
+2025-09-10T10:09:08.621-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [b5dea89f-a9fa-4533-bd23-e3bd19557733]: GET /api/v1/tasklists - Status: 200 - Duration: 9ms
+2025-09-10T10:09:08.639-03:00  INFO 8544 --- [tasklist] [Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [br.com.jtech.tasklist.integration.TasklistIntegrationTest]: TasklistIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-09-10T10:09:08.656-03:00  INFO 8544 --- [tasklist] [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration br.com.jtech.tasklist.TasklistApplication for test class br.com.jtech.tasklist.integration.TasklistIntegrationTest
+2025-09-10T10:09:08.754-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : Starting TasklistIntegrationTest v1.0.0-SNAPSHOT using Java 21.0.8 with PID 8544 (started by carlo in C:\Trabalho\teste\fullstack2\jtech-tasklist-backend)
+2025-09-10T10:09:08.755-03:00 DEBUG 8544 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10T10:09:08.755-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : The following 1 profile is active: "test"
+2025-09-10T10:09:10.255-03:00  INFO 8544 --- [tasklist] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10T10:09:10.389-03:00  INFO 8544 --- [tasklist] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 107 ms. Found 2 JPA repository interfaces.
+2025-09-10T10:09:10.821-03:00  WARN 8544 --- [tasklist] [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'validationConfig' of type [br.com.jtech.tasklist.config.ValidationConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [methodValidationPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-09-10T10:09:10.828-03:00  WARN 8544 --- [tasklist] [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-09-10T10:09:12.287-03:00  INFO 8544 --- [tasklist] [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-09-10T10:09:12.353-03:00  INFO 8544 --- [tasklist] [Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-10T10:09:12.353-03:00  INFO 8544 --- [tasklist] [Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10T10:09:12.521-03:00  INFO 8544 --- [tasklist] [Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-10T10:09:12.521-03:00  INFO 8544 --- [tasklist] [Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3764 ms
+2025-09-10T10:09:12.936-03:00 DEBUG 8544 --- [tasklist] [Test worker] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-09-10T10:09:12.937-03:00 DEBUG 8544 --- [tasklist] [Test worker] o.s.web.filter.ForwardedHeaderFilter     : Filter 'forwardedHeaderFilter' configured for use
+2025-09-10T10:09:13.237-03:00  INFO 8544 --- [tasklist] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10T10:09:13.392-03:00  INFO 8544 --- [tasklist] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-10T10:09:13.498-03:00  INFO 8544 --- [tasklist] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-10T10:09:13.902-03:00  INFO 8544 --- [tasklist] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10T10:09:14.000-03:00  INFO 8544 --- [tasklist] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-10T10:09:14.788-03:00  INFO 8544 --- [tasklist] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-09-10T10:09:14.800-03:00  INFO 8544 --- [tasklist] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-10T10:09:14.883-03:00  WARN 8544 --- [tasklist] [Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-10T10:09:14.937-03:00  INFO 8544 --- [tasklist] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10T10:09:17.082-03:00  INFO 8544 --- [tasklist] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10T10:09:17.120-03:00 DEBUG 8544 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    drop table if exists tasklists cascade 
+2025-09-10T10:09:17.136-03:00 DEBUG 8544 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    drop table if exists tasks cascade 
+2025-09-10T10:09:17.137-03:00 DEBUG 8544 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    create table tasklists (
+        created_at timestamp(6) not null,
+        updated_at timestamp(6) not null,
+        id uuid not null,
+        color varchar(20),
+        description varchar(1000),
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-10T10:09:17.159-03:00 DEBUG 8544 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    create table tasks (
+        completed boolean not null,
+        created_at timestamp(6) not null,
+        due_date timestamp(6),
+        updated_at timestamp(6) not null,
+        id uuid not null,
+        tasklist_id uuid not null,
+        priority varchar(20),
+        description varchar(1000),
+        title varchar(255) not null,
+        primary key (id)
+    )
+2025-09-10T10:09:17.162-03:00  INFO 8544 --- [tasklist] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10T10:09:17.970-03:00  INFO 8544 --- [tasklist] [Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-10T10:09:19.486-03:00  WARN 8544 --- [tasklist] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10T10:09:19.620-03:00 DEBUG 8544 --- [tasklist] [Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2025-09-10T10:09:20.320-03:00 DEBUG 8544 --- [tasklist] [Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /doc/tasklist/v1/swagger-ui*/*swagger-initializer.js, /doc/tasklist/v1/swagger-ui*/**] in 'resourceHandlerMapping'
+2025-09-10T10:09:20.742-03:00  INFO 8544 --- [tasklist] [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-09-10T10:09:20.803-03:00  WARN 8544 --- [tasklist] [Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 0f6e5dba-0c99-4cf9-ae3f-17b4a663bd87
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-10T10:09:20.806-03:00  INFO 8544 --- [tasklist] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-10T10:09:20.987-03:00 DEBUG 8544 --- [tasklist] [Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-10T10:09:21.003-03:00 DEBUG 8544 --- [tasklist] [Test worker] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-10T10:09:21.586-03:00  INFO 8544 --- [tasklist] [Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-09-10T10:09:22.203-03:00  INFO 8544 --- [tasklist] [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 63348 (http) with context path '/'
+2025-09-10T10:09:22.219-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : Started TasklistIntegrationTest in 13.546 seconds (process running for 25.703)
+2025-09-10T10:09:22.375-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : >>> Connector Ready
+2025-09-10T10:09:22.375-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : ======================================================
+2025-09-10T10:09:22.375-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : == Execute mode:.....................'LOCAL'
+2025-09-10T10:09:22.382-03:00  INFO 8544 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : ======================================================
+2025-09-10T10:09:22.419-03:00 DEBUG 8544 --- [tasklist] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@ab2009f, started on Wed Sep 10 10:09:01 BRT 2025
+2025-09-10T10:09:22.419-03:00 DEBUG 8544 --- [tasklist] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@128921c4, started on Wed Sep 10 10:09:07 BRT 2025
+2025-09-10T10:09:22.436-03:00  INFO 8544 --- [tasklist] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10T10:09:22.452-03:00  INFO 8544 --- [tasklist] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-10T10:09:22.847-03:00  INFO 8544 --- [tasklist] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10T10:09:22.856-03:00  INFO 8544 --- [tasklist] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-10T10:09:22.858-03:00  INFO 8544 --- [tasklist] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2025-09-10T10:10:09.647-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TaskControllerTest         : Starting TaskControllerTest v1.0.0-SNAPSHOT using Java 21.0.8 with PID 15204 (started by carlo in C:\Trabalho\teste\fullstack2\jtech-tasklist-backend)
+2025-09-10T10:10:09.652-03:00 DEBUG 15204 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TaskControllerTest         : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10T10:10:09.653-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TaskControllerTest         : The following 1 profile is active: "dev"
+2025-09-10T10:10:15.470-03:00  WARN 15204 --- [tasklist] [Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 6f90e5ba-ef52-4170-99e3-292782d72f28
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-10T10:10:15.491-03:00  INFO 15204 --- [tasklist] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-10T10:10:16.416-03:00  INFO 15204 --- [tasklist] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-10T10:10:16.417-03:00  INFO 15204 --- [tasklist] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-10T10:10:16.421-03:00  INFO 15204 --- [tasklist] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 2 ms
+2025-09-10T10:10:16.490-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TaskControllerTest         : Started TaskControllerTest in 8.256 seconds (process running for 11.419)
+2025-09-10T10:10:16.711-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [0cdb497f-ca5e-4636-b7ca-44a38dcad193]: POST /api/v1/tasks from 127.0.0.1
+2025-09-10T10:10:17.032-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [0cdb497f-ca5e-4636-b7ca-44a38dcad193]: POST /api/v1/tasks - Status: 201 - Duration: 322ms
+2025-09-10T10:10:17.151-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [96e66fb5-4d73-49d7-a5b2-1b73bb730dd8]: GET /api/v1/tasks from 127.0.0.1
+2025-09-10T10:10:17.170-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [96e66fb5-4d73-49d7-a5b2-1b73bb730dd8]: GET /api/v1/tasks - Status: 200 - Duration: 19ms
+2025-09-10T10:10:17.187-03:00  INFO 15204 --- [tasklist] [Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [br.com.jtech.tasklist.adapters.input.controllers.TasklistControllerTest]: TasklistControllerTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-09-10T10:10:17.205-03:00  INFO 15204 --- [tasklist] [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration br.com.jtech.tasklist.TasklistApplication for test class br.com.jtech.tasklist.adapters.input.controllers.TasklistControllerTest
+2025-09-10T10:10:17.284-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TasklistControllerTest     : Starting TasklistControllerTest v1.0.0-SNAPSHOT using Java 21.0.8 with PID 15204 (started by carlo in C:\Trabalho\teste\fullstack2\jtech-tasklist-backend)
+2025-09-10T10:10:17.284-03:00 DEBUG 15204 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TasklistControllerTest     : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10T10:10:17.284-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TasklistControllerTest     : The following 1 profile is active: "dev"
+2025-09-10T10:10:18.322-03:00  WARN 15204 --- [tasklist] [Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 4209310b-9e7c-4c66-83eb-6b630ced06c3
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-10T10:10:18.324-03:00  INFO 15204 --- [tasklist] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-10T10:10:18.402-03:00  INFO 15204 --- [tasklist] [Test worker] o.s.b.t.m.w.SpringBootMockServletContext : Initializing Spring TestDispatcherServlet ''
+2025-09-10T10:10:18.403-03:00  INFO 15204 --- [tasklist] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Initializing Servlet ''
+2025-09-10T10:10:18.404-03:00  INFO 15204 --- [tasklist] [Test worker] o.s.t.web.servlet.TestDispatcherServlet  : Completed initialization in 0 ms
+2025-09-10T10:10:18.417-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.a.i.c.TasklistControllerTest     : Started TasklistControllerTest in 1.201 seconds (process running for 13.347)
+2025-09-10T10:10:18.433-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [87bf7641-5007-477b-b158-54f8cad23b47]: POST /api/v1/tasklists from 127.0.0.1
+2025-09-10T10:10:18.452-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [87bf7641-5007-477b-b158-54f8cad23b47]: POST /api/v1/tasklists - Status: 201 - Duration: 19ms
+2025-09-10T10:10:18.466-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Incoming request [a6e41a7a-dc62-4780-be2c-0ab607e19871]: GET /api/v1/tasklists from 127.0.0.1
+2025-09-10T10:10:18.471-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.c.RequestLoggingInterceptor      : Request completed [a6e41a7a-dc62-4780-be2c-0ab607e19871]: GET /api/v1/tasklists - Status: 200 - Duration: 5ms
+2025-09-10T10:10:18.488-03:00  INFO 15204 --- [tasklist] [Test worker] t.c.s.AnnotationConfigContextLoaderUtils : Could not detect default configuration classes for test class [br.com.jtech.tasklist.integration.TasklistIntegrationTest]: TasklistIntegrationTest does not declare any static, non-private, non-final, nested classes annotated with @Configuration.
+2025-09-10T10:10:18.519-03:00  INFO 15204 --- [tasklist] [Test worker] .b.t.c.SpringBootTestContextBootstrapper : Found @SpringBootConfiguration br.com.jtech.tasklist.TasklistApplication for test class br.com.jtech.tasklist.integration.TasklistIntegrationTest
+2025-09-10T10:10:18.618-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : Starting TasklistIntegrationTest v1.0.0-SNAPSHOT using Java 21.0.8 with PID 15204 (started by carlo in C:\Trabalho\teste\fullstack2\jtech-tasklist-backend)
+2025-09-10T10:10:18.619-03:00 DEBUG 15204 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : Running with Spring Boot v3.5.5, Spring v6.2.10
+2025-09-10T10:10:18.619-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : The following 1 profile is active: "test"
+2025-09-10T10:10:20.150-03:00  INFO 15204 --- [tasklist] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2025-09-10T10:10:20.292-03:00  INFO 15204 --- [tasklist] [Test worker] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 120 ms. Found 2 JPA repository interfaces.
+2025-09-10T10:10:20.700-03:00  WARN 15204 --- [tasklist] [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'validationConfig' of type [br.com.jtech.tasklist.config.ValidationConfig$$SpringCGLIB$$0] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). The currently created BeanPostProcessor [methodValidationPostProcessor] is declared through a non-static factory method on that class; consider declaring it as static instead.
+2025-09-10T10:10:20.703-03:00  WARN 15204 --- [tasklist] [Test worker] trationDelegate$BeanPostProcessorChecker : Bean 'validator' of type [org.springframework.validation.beanvalidation.LocalValidatorFactoryBean] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying). Is this bean getting eagerly injected/applied to a currently created BeanPostProcessor [methodValidationPostProcessor]? Check the corresponding BeanPostProcessor declaration and its dependencies/advisors. If this bean does not have to be post-processed, declare it with ROLE_INFRASTRUCTURE.
+2025-09-10T10:10:21.936-03:00  INFO 15204 --- [tasklist] [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port 0 (http)
+2025-09-10T10:10:21.986-03:00  INFO 15204 --- [tasklist] [Test worker] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-09-10T10:10:21.987-03:00  INFO 15204 --- [tasklist] [Test worker] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/10.1.44]
+2025-09-10T10:10:22.123-03:00  INFO 15204 --- [tasklist] [Test worker] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2025-09-10T10:10:22.124-03:00  INFO 15204 --- [tasklist] [Test worker] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 3504 ms
+2025-09-10T10:10:22.544-03:00 DEBUG 15204 --- [tasklist] [Test worker] o.s.w.f.ServerHttpObservationFilter      : Filter 'webMvcObservationFilter' configured for use
+2025-09-10T10:10:22.548-03:00 DEBUG 15204 --- [tasklist] [Test worker] o.s.web.filter.ForwardedHeaderFilter     : Filter 'forwardedHeaderFilter' configured for use
+2025-09-10T10:10:22.870-03:00  INFO 15204 --- [tasklist] [Test worker] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2025-09-10T10:10:23.032-03:00  INFO 15204 --- [tasklist] [Test worker] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 6.6.26.Final
+2025-09-10T10:10:23.126-03:00  INFO 15204 --- [tasklist] [Test worker] o.h.c.internal.RegionFactoryInitiator    : HHH000026: Second-level cache disabled
+2025-09-10T10:10:23.518-03:00  INFO 15204 --- [tasklist] [Test worker] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2025-09-10T10:10:23.590-03:00  INFO 15204 --- [tasklist] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2025-09-10T10:10:24.281-03:00  INFO 15204 --- [tasklist] [Test worker] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection conn0: url=jdbc:h2:mem:testdb user=SA
+2025-09-10T10:10:24.287-03:00  INFO 15204 --- [tasklist] [Test worker] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2025-09-10T10:10:24.385-03:00  WARN 15204 --- [tasklist] [Test worker] org.hibernate.orm.deprecation            : HHH90000025: H2Dialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2025-09-10T10:10:24.440-03:00  INFO 15204 --- [tasklist] [Test worker] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [Connecting through datasource 'HikariDataSource (HikariPool-1)']
+	Database driver: undefined/unknown
+	Database version: 2.3.232
+	Autocommit mode: undefined/unknown
+	Isolation level: undefined/unknown
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2025-09-10T10:10:26.532-03:00  INFO 15204 --- [tasklist] [Test worker] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2025-09-10T10:10:26.577-03:00 DEBUG 15204 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    drop table if exists tasklists cascade 
+2025-09-10T10:10:26.592-03:00 DEBUG 15204 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    drop table if exists tasks cascade 
+2025-09-10T10:10:26.604-03:00 DEBUG 15204 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    create table tasklists (
+        created_at timestamp(6) not null,
+        updated_at timestamp(6) not null,
+        id uuid not null,
+        color varchar(20),
+        description varchar(1000),
+        name varchar(255) not null,
+        primary key (id)
+    )
+2025-09-10T10:10:26.617-03:00 DEBUG 15204 --- [tasklist] [Test worker] org.hibernate.SQL                        : 
+    create table tasks (
+        completed boolean not null,
+        created_at timestamp(6) not null,
+        due_date timestamp(6),
+        updated_at timestamp(6) not null,
+        id uuid not null,
+        tasklist_id uuid not null,
+        priority varchar(20),
+        description varchar(1000),
+        title varchar(255) not null,
+        primary key (id)
+    )
+2025-09-10T10:10:26.622-03:00  INFO 15204 --- [tasklist] [Test worker] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10T10:10:27.356-03:00  INFO 15204 --- [tasklist] [Test worker] o.s.d.j.r.query.QueryEnhancerFactory     : Hibernate is in classpath; If applicable, HQL parser will be used.
+2025-09-10T10:10:28.734-03:00  WARN 15204 --- [tasklist] [Test worker] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2025-09-10T10:10:28.850-03:00 DEBUG 15204 --- [tasklist] [Test worker] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2025-09-10T10:10:29.631-03:00 DEBUG 15204 --- [tasklist] [Test worker] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**, /doc/tasklist/v1/swagger-ui*/*swagger-initializer.js, /doc/tasklist/v1/swagger-ui*/**] in 'resourceHandlerMapping'
+2025-09-10T10:10:30.038-03:00  INFO 15204 --- [tasklist] [Test worker] o.s.b.a.e.web.EndpointLinksResolver      : Exposing 14 endpoints beneath base path '/actuator'
+2025-09-10T10:10:30.098-03:00  WARN 15204 --- [tasklist] [Test worker] .s.s.UserDetailsServiceAutoConfiguration : 
+
+Using generated security password: 3ef6a013-e8a5-4848-b351-5dbb8a133697
+
+This generated password is for development use only. Your security configuration must be updated before running your application in production.
+
+2025-09-10T10:10:30.101-03:00  INFO 15204 --- [tasklist] [Test worker] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name inMemoryUserDetailsManager
+2025-09-10T10:10:30.342-03:00 DEBUG 15204 --- [tasklist] [Test worker] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2025-09-10T10:10:30.367-03:00 DEBUG 15204 --- [tasklist] [Test worker] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 3 @ExceptionHandler, 1 ResponseBodyAdvice
+2025-09-10T10:10:30.951-03:00  INFO 15204 --- [tasklist] [Test worker] o.s.b.a.h2.H2ConsoleAutoConfiguration    : H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2025-09-10T10:10:31.611-03:00  INFO 15204 --- [tasklist] [Test worker] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port 64530 (http) with context path '/'
+2025-09-10T10:10:31.619-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.i.TasklistIntegrationTest        : Started TasklistIntegrationTest in 13.084 seconds (process running for 26.549)
+2025-09-10T10:10:31.879-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : >>> Connector Ready
+2025-09-10T10:10:31.879-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : ======================================================
+2025-09-10T10:10:31.879-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : == Execute mode:.....................'LOCAL'
+2025-09-10T10:10:31.879-03:00  INFO 15204 --- [tasklist] [Test worker] b.c.j.t.c.i.l.ReadyEventListener         : ======================================================
+2025-09-10T10:10:31.910-03:00 DEBUG 15204 --- [tasklist] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@ab2009f, started on Wed Sep 10 10:10:09 BRT 2025
+2025-09-10T10:10:31.910-03:00 DEBUG 15204 --- [tasklist] [SpringApplicationShutdownHook] o.s.w.c.s.GenericWebApplicationContext   : Closing org.springframework.web.context.support.GenericWebApplicationContext@570c6601, started on Wed Sep 10 10:10:17 BRT 2025
+2025-09-10T10:10:31.910-03:00  INFO 15204 --- [tasklist] [SpringApplicationShutdownHook] o.s.b.w.e.tomcat.GracefulShutdown        : Commencing graceful shutdown. Waiting for active requests to complete
+2025-09-10T10:10:31.933-03:00  INFO 15204 --- [tasklist] [tomcat-shutdown] o.s.b.w.e.tomcat.GracefulShutdown        : Graceful shutdown complete
+2025-09-10T10:10:32.263-03:00  INFO 15204 --- [tasklist] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2025-09-10T10:10:32.266-03:00  INFO 15204 --- [tasklist] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2025-09-10T10:10:32.269-03:00  INFO 15204 --- [tasklist] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
